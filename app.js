@@ -35,6 +35,18 @@
 
 // calculateSum(20,10);
 
+// ES modules (mjs)
+
+
+import {calculateSum} from './sum.js';
+
+calculateSum(3,6);
+
+import {greet} from "./abc.js";
+
+greet();
+
+
 
 
 
