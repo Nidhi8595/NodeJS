@@ -11,5 +11,7 @@ console.log(this);
 
 console.log(globalThis);
 
-// In browsers, global is equivalent to window .
-// In Node.js, globalThis is equivalent to global .
+// In browsers, global is equivalent to window object
+// In Node.js, globalThis is equivalent to global 
+
+console.log(global === globalThis);
