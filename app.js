@@ -16,4 +16,14 @@
 
 // console.log(global === globalThis);
 
-require('./abc.js'); //importing entire module
+// require('./abc.js'); //importing entire module
+
+
+
+const greet=require('./abc.js'); //importing  a function
+
+greet();
+
+const calculateSum = require('./sum.js');
+
+calculateSum(5,10);
