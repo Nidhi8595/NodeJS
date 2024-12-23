@@ -20,10 +20,20 @@
 
 
 
-const greet=require('./abc.js'); //importing  a function
+// const greet=require('./abc.js'); //importing  a function
 
-greet();
+// greet();
 
-const calculateSum = require('./sum.js');
+// const ob = require('./sum.js');
 
-calculateSum(5,10);
+// ob.calculateSum(5,10);
+
+
+// destructuring
+
+const {calculateSum}=require('./sum.js');
+
+calculateSum(20,10);
+
+
+ 
