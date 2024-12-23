@@ -1,17 +1,19 @@
-let name = "Node JS";
-let a = 5;
-let b = 10;
-let c = a + b;
-console.log(name);
-console.log(c);
+// let name = "Node JS";
+// let a = 5;
+// let b = 10;
+// let c = a + b;
+// console.log(name);
+// console.log(c);
 
-console.log(this);
+// console.log(this);
 
-// at the global level in Node.js, it will log an empty object, indicating that this does not refer to the global object in this context.
+// // at the global level in Node.js, it will log an empty object, indicating that this does not refer to the global object in this context.
 
-console.log(globalThis);
+// console.log(globalThis);
 
-// In browsers, global is equivalent to window object
-// In Node.js, globalThis is equivalent to global 
+// // In browsers, global is equivalent to window object
+// // In Node.js, globalThis is equivalent to global 
 
-console.log(global === globalThis);
+// console.log(global === globalThis);
+
+require('./abc.js'); //importing entire module
