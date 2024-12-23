@@ -1,5 +1,4 @@
-// Nested modules
-const {calculatePdt,calculateSum} = require('./calculate');
+// Importing a json file
 
-calculateSum(4, 6)
-calculatePdt(6, 8)
+const data = require('./data.json');
+console.log(data);
