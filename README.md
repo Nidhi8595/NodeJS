@@ -18,3 +18,7 @@ modules enforce stricter parsing and error handling, making them generally
 safer and more reliable.
 - need package.json configuration
 - used in frameworks like React, Angular
+
+
+-Nested Modules
+- We can import entire module folder and app.js would not need to know the structure of that folder
