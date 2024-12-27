@@ -24,3 +24,5 @@ safer and more reliable.
 - We can import entire module folder and app.js would not need to know the structure of that folder
 
 -Synchronized execution of JS code
+
+-Asynchronous execution of JS code
