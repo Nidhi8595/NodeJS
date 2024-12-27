@@ -26,3 +26,7 @@ safer and more reliable.
 -Synchronized execution of JS code
 
 -Asynchronous execution of JS code
+
+-We should avoid using Sync functions in case of performance-sensitive applications
+
+-setTimeOut() :- it's execution actually depends on the state of Call stack rather than the time specified(i.e. always executed when the call stack becomes empty)
