@@ -22,3 +22,5 @@ safer and more reliable.
 
 -Nested Modules
 - We can import entire module folder and app.js would not need to know the structure of that folder
+
+-Synchronized execution of JS code
